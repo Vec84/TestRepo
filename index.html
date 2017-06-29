@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<title>Automation Dashboard</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta name ="viewpoint" content ="width=device-width,initial-scale=1.0,user-scalable=no">
+		<script src="scripts/jquery-3.2.1.js"></script>
+		<script src="scripts/general.js"></script>
+		<link rel ="stylesheet" type="text/css" href = "styles/global.css"/>
+		<link rel ="stylesheet" type="text/css" href = "styles/tables.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800" rel="stylesheet">
+	    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	    <script type = "text/javascript" src = "scripts/googlecharts.js"></script>
+	</head>
+	<body>
+		 <div id ="header">
+		 	<div class ="logo"><a href= "#">Project <span>Dashboard</span></a></div>
+		 </div>
+
+		 <a class ="mobile"></a>
+		 
+		 <div id= "container">
+		 	<div class = "sidebar">
+		 		<ul id ="nav">
+		 			<li><a class = "selected" href="#">Dashboard</a></li>
+		 			<li><a href="#">Savings</a></li>
+		 			<li><a href="#">Benchmarks</a></li>
+		 			<li><a href="#">Graphs</a></li>
+		 		</ul>
+		 	</div>
+		 </div>
+
+		 <div class = "content">
+		 	<h1>Dashboard</h1>
+		 <div id= "desccontainer">
+		 	<div>
+			 	<div class = "descbar">
+			 		<ul id ="descriptivebar">
+			 			<li>Project</li>
+			 			<li>PM</li>
+			 			<li>Sponsor</li>
+			 			<li>Estimated ROI</li>
+			 			<li>Target Delivery</li>
+			 			<li>Overall Status</li>
+			 		</ul>
+			 	</div>
+			 </div>
+			 <div id= "desccontainertext">
+			 	<div class = "desctextbar">
+			 		<ul id ="descriptivetextbar">
+			 			<li>Automation Project</li>
+			 			<li>Gareth Griffiths</li>
+			 			<li>Matt Dymond</li>
+			 			<li>£24,000</li>
+			 			<li>July 2017</li>
+			 			<li id="statusbar">Amber</li>
+			 		</ul>
+			 	</div>
+			 </div>
+		</div>
+		 	<div id = "box">
+		 		<div class = "box-top">News</div>
+		 			<div class = "box-panel">
+		 			This is a box panel !
+					</div>
+		 	</div>
+		 	<div id = "box2">
+		 		<div class = "box-top2">News</div>
+		 			<div class = "box-panel2">
+		 			This is a box panel !
+
+		 			</div>
+		 	</div>
+		 	<div id="table_div"></div>
+			<div id = "tablecontainer">
+				<table>
+				  <tr id = "tablehdr">
+				    <th>Title</th>
+				    <th>ETA</th>
+				    <th>Owner</th>
+				    <th>RAG</th>
+				    <th>Notes</th>
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Finalise ROI/PDR</td>
+				    <td>02/01/2017</td>
+				    <td>Gareth Griffiths</td>
+				    <td class ="ragstatus">Green</td>
+				    <td>Initial draft completed</td>					    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Motor FNOL V2</td>
+				    <td>01/02/2017</td>
+				    <td>Gareth Griffiths</td>
+				    <td class ="ragstatus">Green</td>
+				    <td>hello world !</td>					    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Alfreds Futterkiste</td>
+				    <td>Maria Anders</td>
+				    <td>Germany</td>
+				    <td id ="ragstatus">Green</td>
+				    <td>Maria Anders</td>			    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Alfreds Futterkiste</td>
+				    <td>Maria Anders</td>
+				    <td>Germany</td>
+				    <td id ="ragstatus">Green</td>
+				    <td>Maria Anders</td>					    
+				  </tr>
+				</table>
+				<table>
+				  <tr id = "tablehdr">
+				    <th>Risk/Blockers</th>
+				    <th>Mitigation</th>
+				    <th>Owner</th>
+				    <th>RAG</th>
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Test Data</td>
+				    <td>Test Data</td>
+				    <td>Gareth Griffiths</td>
+				    <td>Green</td>					    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Test Data</td>
+				    <td>Test Data</td>
+				    <td>Gareth Griffiths</td>
+				    <td>Green</td>					    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Test Data</td>
+				    <td>Test Data</td>
+				    <td>Gareth Griffiths</td>
+				    <td>Green</td>					    
+				  </tr>
+				  <tr id = "tabledata">
+				    <td>Test Data</td>
+				    <td>Test Data</td>
+				    <td>Gareth Griffiths</td>
+				    <td>Green</td>					    
+				  </tr> 
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
